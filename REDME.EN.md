@@ -2,9 +2,9 @@
 
 ## A typical one-page site created as part of a study at [Yandex.Praktikum](https://praktikum.yandex.com/) on a web development course ["Web Developer"](https://practicum.yandex.com/web/).
 
-*Read this in other languages:* [RU]()
+*Read this in other languages:* [RU](https://github.com/goldlexx/how-to-learn/blob/main/README.md)
 
-| **GithHub Pages** | [Deploy on GitHub Pages]() |
+| **GithHub Pages** | [Deploy on GitHub Pages](https://goldlexx.github.io/how-to-learn/) |
 | ----------------- | -------------------------------------------------------------------- |
 
 ### The work uses advanced HTML and CSS.
