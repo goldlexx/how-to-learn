@@ -56,6 +56,91 @@
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
+
+html,
+body,
+.page {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header__main-illustration {
+  width: min(765px, 70vw);
+  height: auto;
+}
+
+.cards {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: min(920px, calc(100% - 32px));
+}
+
+.page {
+  min-width: 0;
+  width: 100%;
+}
+
+.cards__image {
+  margin: 0 auto 24px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .header {
+    min-height: 520px;
+  }
+
+  .header__title {
+    margin: auto 24px;
+    width: calc(100% - 48px);
+    font-size: clamp(44px, 12vw, 72px);
+    line-height: 1;
+  }
+
+  .header__subtitle {
+    left: 24px;
+    width: min(388px, calc(100% - 48px));
+  }
+
+  .header__square-pic {
+    width: min(568px, 80vw);
+    height: min(568px, 80vw);
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .section-title,
+  .section-subtitle {
+    width: calc(100% - 32px);
+  }
+
+  .section-title {
+    font-size: clamp(36px, 10vw, 52px);
+  }
+
+  .section-subtitle {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .table__cell {
+    width: min(250px, 45%);
+  }
+}
+
+html,
+body {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.header__main-illustration {
+  max-width: 70vw !important;
+}
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__author/footer__author.css);
