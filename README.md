@@ -1,62 +1,35 @@
-# Проектная работа: "How to learn". Создана в рамках учебы в [Яндекс.Практикум](https://praktikum.yandex.ru/) на факультете ["Веб-разработчик"](https://praktikum.yandex.ru/web/)
+# How to Learn
 
-*Read this in other languages:* [EN](https://github.com/goldlexx/how-to-learn/blob/main/REDME.EN.md)
+A responsive educational landing page about learning techniques, featuring concise articles, a set of study principles, and embedded TED talks.
 
-## Описание:
+## Live Demo
 
-"How to learn" - это типовой одностраничный сайт про методики обучения. Сайт создан по методологии BEM с файловой структурой Nested BEM.
+[Open the website](https://goldlexx.github.io/how-to-learn/)
 
+## Features
 
-| **GithHub Pages** | [Проектная работа на GitHub Pages](https://goldlexx.github.io/how-to-learn/) |
-| ----------------- | -------------------------------------------------------------------- |
+- Editorial sections on common learning challenges and study methods
+- Embedded videos and illustrated content
+- Responsive layouts for mobile, tablet, and desktop screens
 
-## Функционал:
+## Tech Stack
 
-* Базовая верстка в HTML:
-  - flex-контейнеры, бокс-модель и позиционирования
-  - бокс-модель элементов
-  - позиционирование
-* Методология БЭМ:
-  - наименование стилей
-  - файловая структура стилей
-  - переиспользование блоков
-  - использование модификаторов и миксов
-* Вставка видео через iframe
-* Анимация элементов через keyframes и transition
-* Базовая работа с репозиториями GIT
+- HTML5
+- CSS3, including Flexbox, animations, and media queries
+- BEM naming and nested file organization
 
-При наведении на ссылки меняется вид курсора и уменьшается прозрачность объектов.
+## Getting Started
 
-## Макет проекта
+Clone the repository and serve its root directory with a local static HTTP server. For example, if Python is installed:
 
-[Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-+-mobile)
-
-## Технологии:
-
-* Flexbox
-* Positioning Elements
-* Animation and Transform using CSS
-* Iframe
-* BEM Methodology
-* File Structure and File Paths (Nested BEM)
-* Git
-
-## Инструкция по установке:
-
-```
+```bash
 git clone https://github.com/goldlexx/how-to-learn.git
+cd how-to-learn
+python -m http.server 8000
 ```
-Запустите локальный сервер разработки с функцией перезагрузки в реальном времени для статических и динамических страниц - [How do you set up a local testing server? (MDN web docs)](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server)
 
-## Будущая доработка проекта будет включать в себя:
+Then open `http://localhost:8000` in a browser.
 
-* Адаптивная верстка сайта
-* Создание формы обратной связи
+## Project Background
 
-## Брифы:
-* [Бриф No1](https://code.s3.yandex.net/web-developer/project-1/sprint-1-brief.pdf) (Flexbox, Positioning Elements, advanced HTML and CSS)
-* [Бриф No2](https://code.s3.yandex.net/web-developer/project-1/sprint-2-brief.pdf) (Animation and Transform using CSS, Nested БЭМ, iframe)
-
-## Чеклисты:
-* [Чеклист No1](https://code.s3.yandex.net/web-developer/checklists/checklist-1/index.html)
-* [Чеклист No2](https://code.s3.yandex.net/web-developer/checklists/checklist-2/index.html)
+This static website was created as a learning project during the Yandex Practicum web development course.
