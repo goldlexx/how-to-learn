@@ -1,35 +1,31 @@
-# How to Learn
+<div align="center">
 
-A responsive educational landing page about learning techniques, featuring concise articles, a set of study principles, and embedded TED talks.
+# 📚 How to Learn
 
-## Live Demo
+Адаптивный учебный лендинг о техниках обучения и полезных привычках.
 
-[Open the website](https://goldlexx.github.io/how-to-learn/)
+[![HTML](https://img.shields.io/badge/HTML5-e34f26?logo=html5&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS](https://img.shields.io/badge/CSS3-1572b6?logo=css3&logoColor=fff)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-222?logo=github)](https://goldlexx.github.io/how-to-learn/)
 
-## Features
+</div>
 
-- Editorial sections on common learning challenges and study methods
-- Embedded videos and illustrated content
-- Responsive layouts for mobile, tablet, and desktop screens
+## Возможности
 
-## Tech Stack
+- тематические разделы о процессе обучения;
+- иллюстрации, ссылки и встроенные видео;
+- адаптивная вёрстка для мобильных устройств.
 
-- HTML5
-- CSS3, including Flexbox, animations, and media queries
-- BEM naming and nested file organization
+## Демонстрация
 
-## Getting Started
+[Открыть сайт](https://goldlexx.github.io/how-to-learn/)
 
-Clone the repository and serve its root directory with a local static HTTP server. For example, if Python is installed:
+## Запуск
 
-```bash
-git clone https://github.com/goldlexx/how-to-learn.git
-cd how-to-learn
-python -m http.server 8000
-```
+Откройте `index.html` или используйте статичный HTTP-сервер. Сборка не требуется.
 
-Then open `http://localhost:8000` in a browser.
+## Технологии
 
-## Project Background
+HTML и CSS.
 
-This static website was created as a learning project during the Yandex Practicum web development course.
+## Лицензия
+
+Лицензия в репозитории не указана.
